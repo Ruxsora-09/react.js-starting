@@ -11,7 +11,8 @@ function App() {
         <h1>Ruxsora</h1>
         <Welcome lang="React"/>
         <Welcome lang="C++"/>
-        <Car/>
+        <Car name="BMW" description="A luxury German car"/>
+        <Car name="Tesla" description="An electric car company"/>
       </div>
     </>
   )

@@ -1,7 +1,8 @@
-function Car() {
+function Car({ name, description }) {
     return (
         <>
-        <h1>BMW</h1>
+        <h1>{name}</h1>
+        <p>{description}</p>
         </>
     );
 }
